@@ -9,4 +9,5 @@ public interface Weapon {
     int totalDamage();
     double timeToKill(int health);
     double timeToEmpty();
+    String possession();
 }
