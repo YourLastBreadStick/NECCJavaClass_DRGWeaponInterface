@@ -72,4 +72,8 @@ public class WarthogAuto210 implements Weapon{
         }while (mag > 0 || reserve > 0);
         return seconds;
     }
+    @Override
+    public String possession(){
+        return "Engineer";
+    }
 }
