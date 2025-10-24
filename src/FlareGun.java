@@ -71,6 +71,7 @@ public class FlareGun implements Weapon{
         }while (mag > 0 || reserve > 0);
         return seconds;
     }
+
     @Override
     public String possession(){
         return "Scout";
